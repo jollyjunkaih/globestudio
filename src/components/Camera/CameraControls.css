@@ -1,0 +1,26 @@
+.camera-controls { padding:14px 16px; }
+.camera-header { display:flex; align-items:center; justify-content:space-between; margin-bottom:10px; }
+.camera-title { font-size:12px; font-weight:700; color:rgba(255,255,255,0.75); }
+.camera-count { font-size:11px; color:rgba(255,255,255,0.3); }
+.camera-actions { display:flex; gap:6px; margin-bottom:10px; flex-wrap:wrap; }
+.cam-btn { padding:5px 10px; border-radius:6px; border:1px solid rgba(255,255,255,0.15); background:rgba(255,255,255,0.06); color:rgba(255,255,255,0.7); font-size:12px; cursor:pointer; transition:all 0.15s; }
+.cam-btn:hover { background:rgba(255,255,255,0.12); }
+.cam-btn-record { border-color:rgba(255,80,80,0.4); color:#ff8080; background:rgba(255,80,80,0.08); }
+.cam-btn-record.overwrite { border-color:rgba(255,180,0,0.4); color:#ffcc44; background:rgba(255,180,0,0.08); }
+.cam-btn-remove { border-color:rgba(255,100,100,0.3); color:rgba(255,120,120,0.8); }
+.cam-btn-clear { width:100%; margin-top:6px; border-color:rgba(255,100,100,0.25); color:rgba(255,120,120,0.7); }
+.camera-easing { margin-bottom:10px; }
+.cam-label { display:block; font-size:10px; color:rgba(255,255,255,0.35); letter-spacing:1px; margin-bottom:6px; }
+.easing-options { display:flex; gap:5px; }
+.easing-btn { flex:1; padding:4px 6px; border-radius:5px; border:1px solid rgba(255,255,255,0.1); background:rgba(255,255,255,0.04); color:rgba(255,255,255,0.5); font-size:11px; cursor:pointer; }
+.easing-btn:hover { background:rgba(255,255,255,0.1); color:#fff; }
+.easing-btn.active { border-color:rgba(100,180,255,0.5); background:rgba(100,180,255,0.15); color:#64b4ff; }
+.camera-keyframe-list { display:flex; flex-direction:column; gap:4px; }
+.kf-item { display:flex; align-items:center; gap:6px; padding:4px 6px; border-radius:5px; background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.06); }
+.kf-item.active { background:rgba(100,180,255,0.1); border-color:rgba(100,180,255,0.3); }
+.kf-diamond { color:#64b4ff; font-size:9px; }
+.kf-time { font-size:12px; font-variant-numeric:tabular-nums; color:#64b4ff; font-weight:600; min-width:32px; }
+.kf-info { flex:1; font-size:11px; color:rgba(255,255,255,0.35); }
+.kf-remove { background:none; border:none; color:rgba(255,255,255,0.25); cursor:pointer; font-size:14px; }
+.kf-remove:hover { color:#ff6666; }
+.camera-hint { font-size:11px; color:rgba(255,255,255,0.3); line-height:1.6; padding:8px; background:rgba(255,255,255,0.03); border-radius:6px; border:1px dashed rgba(255,255,255,0.08); }

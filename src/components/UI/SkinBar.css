@@ -1,0 +1,5 @@
+.skin-bar { display:flex; align-items:center; gap:6px; padding:8px 16px; background:#0c0c18; border-top:1px solid rgba(255,255,255,0.08); flex-shrink:0; overflow-x:auto; }
+.skin-bar-label { font-size:10px; font-weight:700; color:rgba(255,255,255,0.35); letter-spacing:1.5px; margin-right:6px; white-space:nowrap; }
+.skin-btn { display:flex; align-items:center; gap:5px; padding:5px 12px; border-radius:20px; border:1px solid rgba(255,255,255,0.12); background:rgba(255,255,255,0.04); color:rgba(255,255,255,0.65); font-size:12px; cursor:pointer; transition:all 0.15s; white-space:nowrap; }
+.skin-btn:hover { background:rgba(255,255,255,0.1); color:#fff; }
+.skin-btn.active { background:rgba(100,180,255,0.2); border-color:rgba(100,180,255,0.6); color:#64b4ff; }

@@ -1,0 +1,10 @@
+.toolbar { display:flex; align-items:center; justify-content:space-between; padding:0 20px; height:52px; background:#0f0f1a; border-bottom:1px solid rgba(255,255,255,0.08); flex-shrink:0; z-index:100; }
+.toolbar-logo { display:flex; align-items:center; gap:8px; }
+.toolbar-logo-icon { font-size:22px; }
+.toolbar-logo-text { font-size:16px; font-weight:700; color:#fff; letter-spacing:0.5px; }
+.toolbar-actions { display:flex; align-items:center; gap:8px; }
+.toolbar-btn { padding:6px 14px; border-radius:6px; border:1px solid rgba(255,255,255,0.15); background:rgba(255,255,255,0.05); color:#ccc; font-size:13px; cursor:pointer; transition:all 0.15s; }
+.toolbar-btn:hover { background:rgba(255,255,255,0.12); color:#fff; }
+.toolbar-btn.active { background:rgba(100,180,255,0.2); border-color:rgba(100,180,255,0.5); color:#64b4ff; }
+.toolbar-btn-export { background:rgba(80,200,120,0.15); border-color:rgba(80,200,120,0.4); color:#50c878; }
+.toolbar-btn-export:hover { background:rgba(80,200,120,0.25); }
