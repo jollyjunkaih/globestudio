@@ -1,0 +1,57 @@
+.audio-panel { display: flex; flex-direction: column; }
+.audio-section { padding: 14px 16px; border-bottom: 1px solid rgba(255,255,255,0.06); }
+.audio-section-title { font-size: 10px; font-weight: 700; letter-spacing: 1.5px; color: rgba(255,255,255,0.3); margin-bottom: 12px; }
+
+.audio-upload-area {
+  border: 1px dashed rgba(255,255,255,0.15);
+  border-radius: 8px;
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  transition: all 0.15s;
+  background: rgba(255,255,255,0.02);
+}
+.audio-upload-area:hover { border-color: rgba(100,180,255,0.4); background: rgba(100,180,255,0.05); }
+.audio-upload-icon { font-size: 28px; }
+.audio-upload-text { font-size: 13px; color: rgba(255,255,255,0.6); font-weight: 500; }
+.audio-upload-hint { font-size: 11px; color: rgba(255,255,255,0.3); }
+
+.audio-file-info { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+.audio-file-icon { font-size: 20px; }
+.audio-file-details { flex: 1; }
+.audio-file-name { font-size: 12px; color: rgba(255,255,255,0.8); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 140px; }
+.audio-file-dur { font-size: 10px; color: rgba(255,255,255,0.35); }
+.audio-remove-btn { background: none; border: none; color: rgba(255,255,255,0.3); cursor: pointer; font-size: 18px; }
+.audio-remove-btn:hover { color: #ff6666; }
+
+.audio-controls { display: flex; align-items: center; gap: 8px; }
+.audio-mute-btn { background: none; border: none; font-size: 18px; cursor: pointer; }
+.audio-mute-btn.muted { opacity: 0.5; }
+.audio-volume-slider { flex: 1; accent-color: #64b4ff; }
+.audio-vol-pct { font-size: 11px; color: rgba(255,255,255,0.4); min-width: 28px; text-align: right; }
+
+.audio-waveform {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+  height: 40px;
+  background: rgba(255,255,255,0.03);
+  border-radius: 4px;
+  padding: 2px 4px;
+  margin-bottom: 6px;
+}
+.waveform-bar {
+  flex: 1;
+  background: #64b4ff;
+  border-radius: 1px;
+  opacity: 0.7;
+  min-height: 2px;
+}
+.audio-waveform-hint { font-size: 10px; color: rgba(255,255,255,0.25); }
+
+.audio-section-info { margin-top: auto; }
+.audio-notes { display: flex; flex-direction: column; gap: 6px; }
+.audio-note { font-size: 11px; color: rgba(255,255,255,0.35); line-height: 1.5; }

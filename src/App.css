@@ -10,3 +10,9 @@ body { background: #000011; color: #ffffff; overflow: hidden; }
 .rpanel-tab:hover { color:rgba(255,255,255,0.7); }
 .rpanel-tab.active { color:#64b4ff; border-bottom-color:#64b4ff; }
 .right-panel-content { flex:1; overflow-y:auto; display:flex; flex-direction:column; }
+
+/* Phase 3: more tabs — smaller font */
+.rpanel-tab {
+  font-size: 10px;
+  padding: 8px 3px;
+}

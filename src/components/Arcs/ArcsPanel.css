@@ -1,0 +1,37 @@
+.arcs-panel { display: flex; flex-direction: column; }
+.arcs-section { padding: 14px 16px; border-bottom: 1px solid rgba(255,255,255,0.06); }
+.arcs-section-title { font-size: 10px; font-weight: 700; letter-spacing: 1.5px; color: rgba(255,255,255,0.3); margin-bottom: 12px; }
+.arcs-field { margin-bottom: 9px; }
+.arcs-label { display: block; font-size: 10px; color: rgba(255,255,255,0.4); margin-bottom: 4px; }
+.arcs-input { width: 100%; padding: 5px 8px; border-radius: 5px; border: 1px solid rgba(255,255,255,0.12); background: rgba(255,255,255,0.05); color: #fff; font-size: 12px; }
+.arcs-input:focus { outline: none; border-color: rgba(100,180,255,0.4); }
+.arcs-two-col { display: flex; gap: 6px; align-items: flex-start; margin-bottom: 9px; }
+.arcs-two-col > div { flex: 1; }
+.arcs-arrow { color: rgba(255,255,255,0.4); font-size: 18px; padding-top: 22px; }
+.arcs-row { display: flex; gap: 4px; }
+.arcs-row .arcs-field { flex: 1; }
+.arcs-row .arcs-input { width: 100%; }
+.preset-routes { display: flex; flex-wrap: wrap; gap: 4px; }
+.preset-route-btn { padding: 3px 7px; border-radius: 10px; border: 1px solid rgba(255,255,255,0.1); background: rgba(255,255,255,0.04); color: rgba(255,255,255,0.5); font-size: 10px; cursor: pointer; white-space: nowrap; }
+.preset-route-btn:hover { background: rgba(255,255,255,0.1); color: #fff; }
+.arc-style-btns { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; }
+.arc-style-btn { padding: 5px 6px; border-radius: 5px; border: 1px solid rgba(255,255,255,0.1); background: rgba(255,255,255,0.04); color: rgba(255,255,255,0.55); font-size: 11px; cursor: pointer; }
+.arc-style-btn:hover { background: rgba(255,255,255,0.1); color: #fff; }
+.arc-style-btn.active { border-color: rgba(100,180,255,0.5); background: rgba(100,180,255,0.15); color: #64b4ff; }
+.arc-colors { display: flex; flex-wrap: wrap; gap: 5px; }
+.arc-color { width: 20px; height: 20px; border-radius: 50%; border: 2px solid transparent; cursor: pointer; }
+.arc-color.active { border-color: #fff; transform: scale(1.2); }
+.arcs-slider { width: 100%; accent-color: #64b4ff; }
+.arcs-toggles { display: flex; gap: 12px; margin-bottom: 10px; }
+.arcs-toggle { display: flex; align-items: center; gap: 5px; font-size: 11px; color: rgba(255,255,255,0.55); cursor: pointer; }
+.arcs-toggle input { accent-color: #64b4ff; }
+.arcs-add-btn { width: 100%; padding: 8px; border-radius: 7px; border: 1px solid rgba(100,180,255,0.4); background: rgba(100,180,255,0.12); color: #64b4ff; font-size: 13px; font-weight: 700; cursor: pointer; }
+.arcs-add-btn:hover { background: rgba(100,180,255,0.22); }
+.arcs-list { display: flex; flex-direction: column; gap: 4px; margin-bottom: 8px; }
+.arc-item { display: flex; align-items: center; gap: 7px; padding: 5px 8px; border-radius: 5px; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.06); }
+.arc-item-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+.arc-item-label { flex: 1; font-size: 11px; color: rgba(255,255,255,0.7); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.arc-item-style { font-size: 13px; }
+.arc-item-remove { background: none; border: none; color: rgba(255,255,255,0.25); cursor: pointer; font-size: 15px; }
+.arc-item-remove:hover { color: #ff6666; }
+.arcs-clear-btn { width: 100%; padding: 5px; border-radius: 5px; border: 1px solid rgba(255,100,100,0.25); background: rgba(255,100,100,0.06); color: rgba(255,120,120,0.7); font-size: 11px; cursor: pointer; }

@@ -1,0 +1,35 @@
+.markers-panel { display: flex; flex-direction: column; }
+.markers-section { padding: 14px 16px; border-bottom: 1px solid rgba(255,255,255,0.06); }
+.markers-section-title { font-size: 10px; font-weight: 700; letter-spacing: 1.5px; color: rgba(255,255,255,0.3); margin-bottom: 12px; }
+.markers-field { margin-bottom: 10px; }
+.markers-label { display: block; font-size: 10px; color: rgba(255,255,255,0.4); margin-bottom: 5px; letter-spacing: 0.5px; }
+.markers-input { width: 100%; padding: 5px 8px; border-radius: 5px; border: 1px solid rgba(255,255,255,0.12); background: rgba(255,255,255,0.05); color: #fff; font-size: 12px; }
+.markers-input:focus { outline: none; border-color: rgba(100,180,255,0.4); }
+.markers-row { display: flex; gap: 8px; }
+.markers-row .markers-field { flex: 1; }
+.markers-row .markers-input { width: 100%; }
+.marker-type-btns { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; }
+.marker-type-btn { padding: 5px 6px; border-radius: 5px; border: 1px solid rgba(255,255,255,0.1); background: rgba(255,255,255,0.04); color: rgba(255,255,255,0.55); font-size: 11px; cursor: pointer; }
+.marker-type-btn:hover { background: rgba(255,255,255,0.1); color: #fff; }
+.marker-type-btn.active { border-color: rgba(100,180,255,0.5); background: rgba(100,180,255,0.15); color: #64b4ff; }
+.preset-cities { display: flex; flex-wrap: wrap; gap: 4px; }
+.preset-city-btn { padding: 3px 7px; border-radius: 10px; border: 1px solid rgba(255,255,255,0.1); background: rgba(255,255,255,0.04); color: rgba(255,255,255,0.5); font-size: 10px; cursor: pointer; }
+.preset-city-btn:hover { background: rgba(255,255,255,0.1); color: #fff; }
+.icon-grid { display: flex; flex-wrap: wrap; gap: 4px; }
+.icon-btn { width: 28px; height: 28px; border-radius: 5px; border: 1px solid rgba(255,255,255,0.1); background: rgba(255,255,255,0.04); font-size: 14px; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+.icon-btn.active { border-color: rgba(100,180,255,0.5); background: rgba(100,180,255,0.15); }
+.color-row { display: flex; flex-wrap: wrap; gap: 5px; }
+.mcolor-swatch { width: 20px; height: 20px; border-radius: 50%; border: 2px solid transparent; cursor: pointer; }
+.mcolor-swatch.active { border-color: #fff; transform: scale(1.2); }
+.markers-slider { width: 100%; accent-color: #64b4ff; }
+.markers-add-btn { width: 100%; padding: 8px; border-radius: 7px; border: 1px solid rgba(100,180,255,0.4); background: rgba(100,180,255,0.12); color: #64b4ff; font-size: 13px; font-weight: 700; cursor: pointer; }
+.markers-add-btn:hover { background: rgba(100,180,255,0.22); }
+.markers-list { display: flex; flex-direction: column; gap: 4px; margin-bottom: 8px; }
+.marker-item { display: flex; align-items: center; gap: 6px; padding: 5px 8px; border-radius: 5px; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.06); cursor: pointer; }
+.marker-item.active { border-color: rgba(100,180,255,0.3); background: rgba(100,180,255,0.08); }
+.marker-item-icon { font-size: 13px; }
+.marker-item-label { flex: 1; font-size: 12px; color: rgba(255,255,255,0.7); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.marker-item-coords { font-size: 10px; color: rgba(255,255,255,0.3); }
+.marker-item-remove { background: none; border: none; color: rgba(255,255,255,0.25); cursor: pointer; font-size: 15px; }
+.marker-item-remove:hover { color: #ff6666; }
+.markers-clear-btn { width: 100%; padding: 5px; border-radius: 5px; border: 1px solid rgba(255,100,100,0.25); background: rgba(255,100,100,0.06); color: rgba(255,120,120,0.7); font-size: 11px; cursor: pointer; }
